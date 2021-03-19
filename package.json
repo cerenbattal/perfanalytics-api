@@ -2,10 +2,10 @@
   "name": "perfanalyticsapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "heroku-postbuild": "cd perfanalytics-dashboard && npm install && npm start"
+    "heroku-postbuild": "cd perfanalytics-dashboard && npm install && npm start && npm run build"
   },
   "author": "",
   "license": "ISC",

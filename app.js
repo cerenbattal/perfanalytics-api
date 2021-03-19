@@ -15,7 +15,7 @@ const metricsRoute = require('./routes/metrics');
 app.use('/metrics', metricsRoute)
 
 app.get('/', (req, res) => {
-    res.send('we are on home')
+    res.send(path.join(__dirname + '/perfanalytics-dashboard/build/index.html'))
 });
 
 // Connect to DB
