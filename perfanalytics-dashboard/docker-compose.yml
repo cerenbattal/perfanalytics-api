@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  perfanalytics-dashboard:
+    build: ./
+    ports:
+      - "3001:5000"
+    container_name: perfanalytics-dashboard
+    stdin_open: true
