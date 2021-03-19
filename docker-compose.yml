@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  perfanalytics-api:
+    build: ./
+    ports:
+      - "4040:3000"
+    container_name: perfanalytics-api
+    stdin_open: true
