@@ -2,7 +2,7 @@ class PerformanceAnalytics {
     constructor() {
         this.url = window.location.href,
         this.userAgent = navigator.userAgent,
-        this.apiUrl = 'http://localhost:3000/metrics'
+        this.apiUrl = 'https://blooming-beach-04612.herokuapp.com//metrics'
     }
 
     getResourceLoadTimes = (resourceListEntries) => {

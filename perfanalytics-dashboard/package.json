@@ -43,5 +43,5 @@
     ]
   },
   "prestart": "npm run build --prefix client",
-  "proxy": "http://localhost:3000"
+  "proxy": "https://blooming-beach-04612.herokuapp.com/"
 }

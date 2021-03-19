@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/metrics";
+const API_URL = "https://blooming-beach-04612.herokuapp.com//metrics";
 
 class metricService {
     findAll(to, from) {
