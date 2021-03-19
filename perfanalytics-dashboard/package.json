@@ -43,5 +43,5 @@
     ]
   },
   "prestart": "npm run build --prefix client",
-  "proxy": "https://blooming-beach-04612.herokuapp.com/"
+  "proxy": "https://perform-analytics.herokuapp.com/"
 }

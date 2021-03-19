@@ -15,10 +15,6 @@ app.use(bodyParser.json());
 const metricsRoute = require('./routes/metrics');
 app.use('/metrics', metricsRoute)
 
-// app.get('/', (req, res) => {
-//     res.send(path.join(__dirname + '/perfanalytics-dashboard/build/index.html'))
-// });
-
 app.use(express.static(path.join(__dirname, './perfanalytics-dashboard/build')));
 ['/dashboard', '/dashboard/*'].forEach(p => {
   app.get(p, (req, res) => {
